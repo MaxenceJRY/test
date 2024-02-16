@@ -1,6 +1,7 @@
 public class Joueur {
     public MainPoker mainJoueur;
     public String nom;
+    public int score;
     public enum role {
         Button("Bouton"),SmallBlind("SmallBlind"),BigBlind("BigBlind");
         private String role;
